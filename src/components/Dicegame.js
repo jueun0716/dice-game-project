@@ -40,6 +40,13 @@ function Dicegame() {
     }
   };
 
+    if (myTotalScore >= 50) {
+    alert("player1 이겼당");
+  } else if (youTotalScore >= 50) {
+    alert("player2 이겼당");
+  }
+
+
   const handleHoldClick = () => {
     //초기화
     if (currentPlayer === 1) {
